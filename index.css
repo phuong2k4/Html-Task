@@ -1,0 +1,13 @@
+p{
+    background-color: aqua;
+    border-radius: 5px;
+    border-color: rgb(127, 172, 157);
+
+}
+ h1:hover{
+    border-radius: 5px;
+    border-bottom: 3px;
+    background-color: blueviolet;
+    border-color: black;
+    
+}
