@@ -5,4 +5,24 @@
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}.avatars {
+    display: flex;
+}
+
+button {
+    /* Nagative margin make avatar overlap to previous one */
+    margin-left: -0.25rem;
+}
+
+button {
+    /* Add a white curve between avatars */
+    box-shadow: 0 0 0 0.25rem #fff;
+
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Rounded border */
+    border-radius: 9999px;
 }
