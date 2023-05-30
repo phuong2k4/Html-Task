@@ -1,13 +1,8 @@
-p{
-    background-color: aqua;
-    border-radius: 5px;
-    border-color: rgb(127, 172, 157);
-
-}
- h1:hover{
-    border-radius: 5px;
-    border-bottom: 3px;
-    background-color: blueviolet;
-    border-color: black;
-    
+:hover a{
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
